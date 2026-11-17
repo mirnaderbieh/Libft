@@ -6,7 +6,7 @@
 /*   By: mderbieh <mderbieh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 14:49:19 by mderbieh          #+#    #+#             */
-/*   Updated: 2026/11/15 15:08:44 by mderbieh         ###   ########.fr       */
+/*   Updated: 2026/11/16 16:42:46 by mderbieh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,10 @@ int	ft_isalpha(int c)
 	}
 	return (0);
 }
+
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%d\n", ft_isalpha('z'));
+// 	return (0);
+// }

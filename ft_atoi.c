@@ -6,7 +6,7 @@
 /*   By: mderbieh <mderbieh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/11 13:02:41 by mderbieh          #+#    #+#             */
-/*   Updated: 2026/11/15 15:09:12 by mderbieh         ###   ########.fr       */
+/*   Updated: 2026/11/16 16:29:30 by mderbieh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,3 +42,11 @@ int	ft_atoi(const char *nptr)
 	}
 	return (n * sign);
 }
+
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	printf("%d\n", ft_atoi("   -42abc"));
+// 	return (0);
+// }

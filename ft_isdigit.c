@@ -6,7 +6,7 @@
 /*   By: mderbieh <mderbieh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 14:50:10 by mderbieh          #+#    #+#             */
-/*   Updated: 2026/11/12 13:18:07 by mderbieh         ###   ########.fr       */
+/*   Updated: 2026/11/16 16:43:37 by mderbieh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,10 @@ int	ft_isdigit(int c)
 	}
 	return (0);
 }
+
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%d\n", ft_isdigit('5'));
+// 	return (0);
+// }

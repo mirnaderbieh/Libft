@@ -6,7 +6,7 @@
 /*   By: mderbieh <mderbieh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/10 14:51:26 by mderbieh          #+#    #+#             */
-/*   Updated: 2026/11/15 14:58:57 by mderbieh         ###   ########.fr       */
+/*   Updated: 2026/11/16 16:43:14 by mderbieh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,10 @@ int	ft_isascii(int c)
 	}
 	return (0);
 }
+
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%d\n", ft_isascii(127));
+// 	return (0);
+// }
